@@ -1,0 +1,204 @@
+/*****COMMON CSS SECTION*****/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+	font-family Roboto, sans-serif, arial;
+}
+h2{
+	color: aqua;
+}
+p{
+	color: yellow;
+}
+th{
+	color: red;
+}
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 400;
+	background: #000000;
+	color: #fff;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: #d8d3d3;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+	
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+	text-decoration: none;
+}
+nav ul li a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: large;
+}
+nav ul li a:hover{
+	font-size: 25px;
+}
+/*ABOUT US SECTION*/
+.main-section {
+	width: 100%;
+	float: left;
+	padding: 0px 0px 110px 0px;
+}
+
+.width-50 {
+	width: 50%;
+	float: left;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.heading-text {
+	border-top:  9px solid #333333ea;
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color:lightseagreen;
+}
+.about-img {
+	border-right:  9px solid #333333ea;
+	width: 90%;
+	padding: 0px 20px;
+	margin-top: 20px;
+    float: left;
+}
+.about-me {
+	
+	width: 100%;
+	float: left;
+	padding: 10px;
+}
+.about-me p {
+	font-size: 16px;
+	margin-top: 5px;
+	line-height: 27px;
+	padding: 20px;
+}
+table {
+	width: 30%;
+    text-align: center;
+	padding: 10px;
+}
+table th,
+table td {
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 5px;
+}
+/*****EXPERIENCE SECTION*****/
+.bg-lightgrey {
+	border-top:  9px solid #333333ea;
+	background-color:black;
+}
+.edu-exp {
+	padding: 10px ;
+	width: 48%;
+	margin: 1%;
+	float: left;	
+}
+.experience-list {
+	border-top:  9px solid #333333ea;
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: #262626;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experience-content h2 {
+	
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.experience-content h3 {
+	color: #35ff78;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experience-content h1 {
+	color: #f1464b;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 30px;
+}
+.experience-content h1:hover{
+	font-size: 50px ;
+}
+.experience-content p {
+	font-size: 15px;
+}
+/*PROJECT SECTION*/
+.service-list {
+	border-top:  9px solid #333333ea;
+	padding: 40px;
+	margin-top: 35px;
+	background: #262626;
+	border-radius: 15px;
+	width: 95%;
+	float: left;
+}
+
+.service-list i {
+	font-size: 50px;
+	color: #ffbf35;
+	width: 70px;
+	float: left;
+}
+
+.service-list h3 {
+	font-size: 28px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+.service-list p {
+	font-size: 15px;
+	line-height: 25px;
+}

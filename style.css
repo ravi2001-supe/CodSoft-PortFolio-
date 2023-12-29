@@ -1,0 +1,251 @@
+/*****COMMON CSS SECTION*****/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+	font-family Roboto, sans-serif, arial;
+}
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 400;
+	background: #000000;
+	color: #fff;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+}
+/*****MENU SECTION*****/
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+.span-col {
+	color: #35aeff;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: white;
+}
+/*****Main BANNER*****/
+.width-50 {
+	float: left;
+	width: 50%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+}
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+	transition: 0.7s ease;
+}
+.banner-section h1:hover{
+	font-size: 70px;
+    color: darkgrey;
+}
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.span-col0{
+	color: white;
+	font-size: 30px;
+}
+.span-col1{
+	color: #35ff97;
+}
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid darkblue;
+	color:#35ffc9;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	transition: 0.7s ease;
+}
+.banner-section a:hover{
+    font-size: 70px;
+}
+/*****Main BANNER IMAGE*****/
+.main-panel img {
+	margin-top: 5%;
+	width: 70%;
+	margin-left: 30%;
+}
+/*****SKILL SECTION*****/
+.heading-text {
+	border-top:  9px solid #333333ea;
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: lightseagreen;
+	padding: 0px 50%;
+	padding: 10px;
+}
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #4bfa66;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: #fafa18;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient( yellow calc(var(--pgPercentage) * 1%),white 0);
+
+}
+/*CONTACT ME SECTION*/
+.contact form {
+	width: 66%;
+	margin: 0px auto;
+}
+.contact input,
+textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	
+	border-radius: 10px;
+	color: red;
+    padding: 0.25rem 0.5rem;
+    font-size: large;
+    border-color:red;
+    background-color: rgba(0, 0, 0, 0.619);
+}
+.contact textarea {
+	height: 80px;
+}
+.contact button {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	background:red;
+	font-size: 16px;
+	border-radius: 10px;
+	font-size: large;
+    background-color: #dc030f;
+    border: 1px solid white;
+    color: white;
+	
+}
+.contact h3 {
+	border-top:  9px solid #333333ea;
+	padding:0px 50%;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 60px;
+	color: #ffbf35;
+}
+.contact h4 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.contact p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+/*****FOOTER SECTION*****/
+.footer {
+	background-color: rgb(49, 48, 46);
+	padding: 20px 10px 25px 50px;
+	width: 100%;
+	float: left;
+}
+.footer-sect {
+	color: white;
+	text-align: center;
+}
+.footer-sect a {
+	color:white;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+}
+.social-icon a i {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #cdcdcd;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 30%;
+	transition: 0.7s ease;
+}
+.social-icon a i:hover{
+    font-size: 70px;
+}
